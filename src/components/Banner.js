@@ -48,7 +48,7 @@ export const Banner = () => {
     <div className="banner">
       <div className="banner__content">
         <h1 className="banner__title">
-          Hi, I'm <span className="banner__title-name">Farshad</span>
+          Hi, I'm <span className="banner__title-name">Farshad 👨🏻‍💻</span>
         </h1>
         <h2 className="banner__subtitle">
           I'm a <span className="banner__subtitle-text">{text}</span>
