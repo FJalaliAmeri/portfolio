@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import React from "react";
-import "./App.css";
 import "./index.css";
 import About from "./routes/About";
 import Contact from "./routes/Contact";

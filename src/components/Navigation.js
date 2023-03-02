@@ -37,9 +37,9 @@ const Navigation = () => {
       </ul>
       <div className="header__nav-hamburger" onClick={handelTouch}>
         {touch ? (
-          <FaTimes className="header__hamburger-icon" onClick={handelTouch} />
+          <FaTimes size={30} onClick={handelTouch} />
         ) : (
-          <FaBars className="header__hamburger-icon" onClick={handelTouch} />
+          <FaBars size={30} onClick={handelTouch} />
         )}
       </div>
     </div>
