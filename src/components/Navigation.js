@@ -2,6 +2,7 @@ import "./Navigation.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { GrHomeRounded } from "react-icons/gr";
 
 const Navigation = () => {
   const [touch, setTouch] = React.useState(false);
@@ -11,7 +12,7 @@ const Navigation = () => {
   return (
     <div className="header">
       <Link to="/" className="header__logo">
-        <h1>FJA</h1>
+        <GrHomeRounded size={30} />
       </Link>
       <ul className={touch ? "header__nav active" : "header__nav"}>
         <li className="header__nav-item">
