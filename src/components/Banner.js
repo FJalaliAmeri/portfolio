@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Banner.css";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -53,6 +54,20 @@ export const Banner = () => {
         <h2 className="banner__subtitle">
           I'm a <span className="banner__subtitle-text">{text}</span>
         </h2>
+        <div className="banner__buttons">
+          <Link to="/about" className="banner__button-1">
+            About
+          </Link>
+          <Link to="/resume" className="banner__button-2">
+            Resume
+          </Link>
+          <Link to="/projects" className="banner__button-4">
+            Projects
+          </Link>
+          <Link to="/contact" className="banner__button-3">
+            Contact
+          </Link>
+        </div>
       </div>
     </div>
   );

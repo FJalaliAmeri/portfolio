@@ -1,8 +1,7 @@
 .footer {
   padding: 20px;
   text-align: center;
-  position: fixed;
-  bottom: 0;
+  width: 100%;
   width: 100%;
 }
 
@@ -53,9 +52,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1rem;
   }
   .footer__content-left-phone {
     margin-left: 0;
+    margin-bottom: 1rem;
   }
   .footer__content-left-email {
     margin-left: 0;
@@ -68,5 +69,8 @@
   }
   .footer__content-right-socials {
     margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 3rem;
+    bottom: 0;
   }
 }
