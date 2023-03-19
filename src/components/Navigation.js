@@ -25,13 +25,18 @@ const Navigation = () => {
           </Link>
         </li>
         <li className="header__nav-item">
-          <Link to="/projects" className="header__nav-link">
-            Projects
+          <Link to="/coverletter" className="header__nav-link">
+            Cover Letter
           </Link>
         </li>
         <li className="header__nav-item">
-          <Link to="/contact" className="header__nav-link">
-            Contact
+          <Link to="/credentials" className="header__nav-link">
+            Credentials
+          </Link>
+        </li>
+        <li className="header__nav-item">
+          <Link to="/projects" className="header__nav-link">
+            Projects
           </Link>
         </li>
       </ul>

@@ -20,7 +20,7 @@ export const Banner = () => {
       <Slide top cascade>
         <div className="banner__content">
           <h1 className="banner__title">
-            Hi, I'm <span className="banner__title-name">Farshad 👨🏻‍💻</span>
+            Hi, I'm <span className="banner__title-name">Farshad</span>
           </h1>
           <h2 className="banner__subtitle">
             I'm a <span className="banner__subtitle-text">{text}</span>
@@ -32,11 +32,14 @@ export const Banner = () => {
             <Link to="/resume" className="banner__button-2">
               Resume
             </Link>
+            <Link to="/coverletter" className="banner__button-3">
+              Cover Letter
+            </Link>
+            <Link to="/credentials" className="banner__button-5">
+              Credentials
+            </Link>
             <Link to="/projects" className="banner__button-4">
               Projects
-            </Link>
-            <Link to="/contact" className="banner__button-3">
-              Contact
             </Link>
           </div>
         </div>

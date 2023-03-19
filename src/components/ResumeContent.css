@@ -53,20 +53,34 @@
   margin-left: 10rem;
 }
 
-.resume-content__page {
-  width: 100%;
-  height: 0%;
-  margin: 0;
+.resume-content_img {
+  margin-top: 1rem;
 }
 
-.react-pdf__Page {
-  margin: 0 auto;
-  width: 80% !important;
-  height: 0% !important;
-}
+@media screen and (max-width: 1040px) {
+  .resume-content__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    align-self: start;
+    margin-left: 10rem;
+  }
 
-.react-pdf__Page__canvas {
-  margin: 0 auto;
-  width: 80% !important;
-  height: 100% !important;
+  .resume-content__dl {
+    margin-left: auto;
+    align-items: flex-end;
+    margin-right: 10rem;
+  }
+  .resume-content {
+    padding: 100px 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .resume-content_img {
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+  }
 }
